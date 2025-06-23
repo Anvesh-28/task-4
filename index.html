@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Quiz App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+    .quiz-container {
+      background: #fff;
+      max-width: 400px;
+      margin: 60px auto;
+      padding: 32px 24px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    .question {
+      font-size: 1.2rem;
+      margin-bottom: 18px;
+    }
+    .options label {
+      display: block;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+    .next-btn {
+      background: #1976d2;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      padding: 10px 24px;
+      font-size: 1rem;
+      cursor: pointer;
+      margin-top: 16px;
+      transition: background 0.2s;
+    }
+    .next-btn:hover {
+      background: #1565c0;
+    }
+    .score {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 24px;
+    }
+    .error {
+      color: #d32f2f;
+      margin-top: 10px;
+      font-size: 0.98rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="quiz-container">
+    <div id="quiz">
+      <!-- Quiz content will be injected here -->
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
